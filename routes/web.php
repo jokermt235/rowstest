@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RowController;
 
-Route::resource('rows', RowController::class);
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +15,7 @@ Route::resource('rows', RowController::class);
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
+Route::resource('rows', RowController::class);

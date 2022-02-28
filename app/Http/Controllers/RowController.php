@@ -16,4 +16,16 @@ class RowController extends Controller
     {
         
     }
+
+    /**
+     * Отображения интерфейса с записями
+     * 
+     * @return \Illuminate\View\View
+     */
+
+    public function index()
+    {
+
+    }
+
 }

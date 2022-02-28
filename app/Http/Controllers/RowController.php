@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Contracts\View\View;
 
 class RowController extends Controller
 {
@@ -20,12 +21,12 @@ class RowController extends Controller
     /**
      * Отображения интерфейса с записями
      * 
-     * @return \Illuminate\View\View
+     * @return \Illuminate\View\View;
      */
 
     public function index()
     {
-
+        return "ee";
     }
 
 }

@@ -15,3 +15,12 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+
+mix.js('resources/assets/js/app.js', 'public/js')
+    .sass('resources/assets/sass/app.sass', 'public/css').version();
+
+mix.js('resources/assets/js/uikit.min.js', 'public/js')
+    .version();
+
+mix.js('resources/assets/js/uikit-icons.min.js', 'public/js')
+    .version();

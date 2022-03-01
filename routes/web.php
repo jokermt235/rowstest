@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::resource('rows', RowController::class);
+Route::post('/rows', [RowController::class, "store"])->name('rows');

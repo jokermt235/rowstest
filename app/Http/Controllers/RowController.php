@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Contracts\View\View;
+use GuzzleHttp\Psr7\Request;
 
 class RowController extends Controller
 {
@@ -13,9 +13,9 @@ class RowController extends Controller
      * @param  request  $request
      * @return \Response\
      */
-    public function store()
+    public function store(Request $request)
     {
-        
+        echo "Test";   
     }
 
     /**
